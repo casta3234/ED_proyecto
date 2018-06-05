@@ -217,4 +217,15 @@ public class Baraja {
             this.add_to_the_beginning(card_mitad2.getPinta(), card_mitad2.getValor());
         }        
     }
+    
+    
+    public void randomize(){
+        this.intercalar();
+        this.mover_n((int) Math.ceil(Math.random() * 100));
+        this.intercalar();
+        this.mover_n((int) Math.ceil(Math.random() * 100));
+        this.intercalar();
+        this.mover_n((int) Math.ceil(Math.random() * 100));
+        this.intercalar(); 
+    }
 }
