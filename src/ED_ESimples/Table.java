@@ -10,7 +10,7 @@ package ED_ESimples;
  * @author USUARIO
  */
 public class Table {
-    private Player player1,palyer2;
+    private Player player1,player2;
     private Baraja baraja;
     private Baraja juego;
 }
