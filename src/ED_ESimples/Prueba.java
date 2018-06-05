@@ -16,13 +16,7 @@ public class Prueba {
         b.print();
         System.out.println(b.getSize());
         System.out.println("**************************");
-        b.intercalar();
-        b.mover_n(26);
-        b.intercalar();
-        b.mover_n(30);
-        b.intercalar();
-        b.mover_n(44);
-        b.intercalar();                 
+        b.randomize();
         b.print();
         System.out.println(b.getSize());
    }    
