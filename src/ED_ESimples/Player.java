@@ -10,6 +10,6 @@ package ED_ESimples;
  * @author USUARIO
  */
 public class Player {
-    private Baraja mano;
-    private int dinero;
+    public Baraja mano;
+    public int dinero;
 }
