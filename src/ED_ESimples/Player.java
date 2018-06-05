@@ -12,4 +12,13 @@ package ED_ESimples;
 public class Player {
     public Baraja mano;
     public int dinero;
+    public int valor_apostao;
+
+    public Player(int dinero) {
+        this.dinero = dinero;
+        this.mano = new Baraja();
+        this.valor_apostao = 0;
+    }
+    
+    
 }
