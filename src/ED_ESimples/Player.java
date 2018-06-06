@@ -19,6 +19,6 @@ public class Player {
         this.mano = new Baraja();
         this.valor_apostao = 0;
     }
-    
+
     
 }
