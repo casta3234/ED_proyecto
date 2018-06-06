@@ -153,16 +153,16 @@ public class Table {
         this.baraja.randomize();
         this.baraja.randomize();
         
-        this.puntaje.colocar("CartaAlta", 1);
+        this.puntaje.colocar("Carta Alta", 1);
         this.puntaje.colocar("Par", 2);
-        this.puntaje.colocar("DoblePar", 3);
+        this.puntaje.colocar("Doble Par", 3);
         this.puntaje.colocar("Trio", 4);
         this.puntaje.colocar("Escalera", 5);
         this.puntaje.colocar("Color", 6);
         this.puntaje.colocar("Full", 7);
         this.puntaje.colocar("Poker", 8);
-        this.puntaje.colocar("EscaleraColor", 9);
-        this.puntaje.colocar("EscaleraReal", 10);
+        this.puntaje.colocar("Escalera de Color", 9);
+        this.puntaje.colocar("Escalera Real", 10);
         
         this.cartas_comunitarias = new Baraja();
         
